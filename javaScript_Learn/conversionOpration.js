@@ -67,3 +67,17 @@ console.log(convertInNumber);
 console.log(typeof convertInNumber)
 
 
+// ************ Oprational ***********
+let value = 3
+let takeNegValue = -value 
+// console.log(takeNegValue);
+// console.log(2+2); // Addition
+// console.log(2-2);// subtraction
+// console.log(2*4); // mutiplecation
+// console.log(2**5); // Two the power Five
+// console.log(6/3); // Divesion
+// console.log(5%2); // Remendar
+ let str1 = "hello"
+ let str2 = "Puja Bharti"
+ let str3 = str1 + str2
+ console.log(str3);
