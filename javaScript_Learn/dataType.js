@@ -20,3 +20,27 @@ const myFunction = function(){
 //  return myFunction;
 console.log(typeof myArray);
 
+// ////////////////////////////////////////////
+// stack Memory (Primitive)  and heap Meomory (Non Promitive) 
+
+///////////    Stack     ///////////////////
+// Stack:- Jitne bhi apke primitive hai Eg:- Number, Booleans, String ye sab jate hia Stack me. stack ke andar jb
+//  bhi koi value lenge apko uska coppy hi milta hai.
+
+// ////////     Heap    ///////////////////
+// Heap:- heap ke andar koi bhi value lenge apko uska Refrance hi milta hai. actualy jo bhi chnages krte hai jo
+//  bhi update krte hai wo orignal hi milta hai.
+let myName = "Puja"
+let myFullNme = myName
+ myFullNme = "Puja Bharti"
+ console.log(myName);
+ console.log(myFullNme);
+ let firstUserId = {
+    emailId: "puja@google.com",
+    paymentId: "783748@ybl"
+}
+let secondUserId = firstUserId
+secondUserId.emailId = "pujabharti@google.com"
+console.log(firstUserId);
+console.log(secondUserId);
+
