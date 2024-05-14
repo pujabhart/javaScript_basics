@@ -72,12 +72,29 @@ let value = 3
 let takeNegValue = -value 
 // console.log(takeNegValue);
 // console.log(2+2); // Addition
-// console.log(2-2);// subtraction
-// console.log(2*4); // mutiplecation
-// console.log(2**5); // Two the power Five
-// console.log(6/3); // Divesion
-// console.log(5%2); // Remendar
+// console.log(2-2);// Subtraction
+// console.log(2*4); // Multiplication
+// console.log(2**5); // Two the power Five (Exponentiation )
+// console.log(6/3); // Division
+// console.log(5%2); // Modulus (Division Remainder)
  let str1 = "hello"
  let str2 = "Puja Bharti"
  let str3 = str1 + str2
  console.log(str3);
+
+//  console.log("1" + 2);
+//  console.log(1 + "2");
+//  console.log("1" + 2 + 3);
+//  console.log(2 + 3 + "1" );
+//  console.log((2 + 3) * 4 % 3);
+
+num1, num2, num3
+num1 = num2 = num3 = 2+3
+let gameConter = 100
+++gameConter
+console.log(gameConter);
+
+// stydy
+// Increment
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+// https://tc39.es/ecma262/#sec-abstract-operations
