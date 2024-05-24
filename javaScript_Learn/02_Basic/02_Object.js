@@ -59,3 +59,28 @@ console.log(Object.values(usert));
 console.log(Object.entries(usert));
 console.log(usert.hasOwnProperty('islogin'));
 console.log(usert.hasOwnProperty('nae'));
+
+const cource = {
+    courceName: "JavaScript",
+    courceId: 123,
+    courcePrice : 1111
+}
+cource.courceName
+
+const {courcePrice} = cource
+console.log(courcePrice);
+
+const {courcePrice:price} = cource  //courcePrice ko short name price rakh diya hai 
+console.log(instructor);
+
+// {
+// "name" : "Hitesh",
+// "courcename" : "Js in Hindi",
+// "price" : "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
